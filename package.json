@@ -1,0 +1,23 @@
+{
+  "name": "webserviceinferenceengine",
+  "version": "1.0.0",
+  "description": "Web service for inference engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --inspect-brk test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NicolasVenne/WebServiceInferenceEngine.git"
+  },
+  "keywords": [
+    "InferenceEngine",
+    "webservice"
+  ],
+  "author": "Nicolas Venne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasVenne/WebServiceInferenceEngine/issues"
+  },
+  "homepage": "https://github.com/NicolasVenne/WebServiceInferenceEngine#readme"
+}
