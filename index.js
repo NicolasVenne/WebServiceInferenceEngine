@@ -23,7 +23,8 @@ const api = express();
 api.set('trust proxy', true);
 const server = require("http").createServer(api);
 const io = require('socket.io')(server);
-server.listen(8080);
+const port = process.env.PORT || 8080;
+server.listen(port);
 
 const jwt = require('express-jwt');
 const jwtAuthz = require('express-jwt-authz');
